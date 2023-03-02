@@ -10,7 +10,7 @@ import Talk from './components/Talk'
 import Footer from './components/Footer'
 function App() {
   return (
-    <div className="App">
+    <div className="font-pop">
       <>
         <NavBar/>
         <Hero/>
