@@ -7,9 +7,10 @@ module.exports = {
     extend: {
       colors: {
         "purp" : "#4B2A63",
+        "dark" : "#F8F8F8",
       },
       fontFamily: {
-        "popins" : ['Poppins', 'sans-serif']
+        "pop" : ['Poppins', 'sans-serif']
       },
       
     },
