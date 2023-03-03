@@ -10,12 +10,12 @@ const NavBar = () => {
   return (
     <header className={`bg-dark sticky lg:relative top-0 z-10 font-medium text-[20px]`}>
       <div
-        className={`xl:mx-auto px-[1.5rem] lg:max-w-[1440px] flex py-5 justify-between items-center select-none transition-all ease-linear duration-650`}
+        className={`xl:mx-auto px-[1.5rem] lg:max-w-[1440px] xl:max-w-[1600px]  flex py-5 justify-between items-center select-none transition-all ease-linear duration-650`}
       >
         <img
           src={logo}
           alt="Land Interior Logo"
-          className="my-auto hover:cursor-pointer "
+          className="my-auto hover:cursor-pointer h-[50px] md:h-[70px] lg:h-[100px] "
         />
         <div className="my-auto text-purp [&>*]:pl-20 hidden lg:inline [&>*]:hover:cursor-pointer">
           <span>Join as Design Expert</span>
