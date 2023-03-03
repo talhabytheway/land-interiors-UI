@@ -1,7 +1,6 @@
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import WhyLand from './components/WhyLand'
-import WhatWeDo from './components/WhatWeDo'
 import OurProjects from './components/OurProjects'
 import Blogs from './components/Blogs'
 import InteriorProd from './components/InteriorProd'
@@ -15,7 +14,6 @@ function App() {
         <NavBar/>
         <Hero/>
         <WhyLand/>
-        <WhatWeDo/>
         <OurProjects/>
         <Blogs/>
         <InteriorProd/>
