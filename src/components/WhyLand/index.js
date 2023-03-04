@@ -11,7 +11,10 @@ import homeOffice from "../../assets/homeOffice.png";
 
 const WhyLand = () => {
   return (
-    <div className="lg:max-w-[1440px] xl:max-w-[1600px] lg:mx-auto bg-cover" style={{ backgroundImage: `url(${rectangle})` }}>
+    <div
+      className="lg:max-w-[1440px] xl:max-w-[1600px] lg:mx-auto bg-cover"
+      style={{ backgroundImage: `url(${rectangle})` }}
+    >
       <h2 className=" font-medium md:pt-[4rem] max-w-[800px] text-[24px] md:text-[30px] lg:text-[36px] text-center mx-auto">
         Why LAND Interiors
       </h2>
@@ -74,12 +77,30 @@ const WhyLand = () => {
         What we do?
       </h2>
       <div className="p-10 mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 [&>*]:justify-self-center [&>div>span]:text-purp [&>div>span]:block [&>div>span]:p-4 [&>div>span]:text-center [&>div>span]:text-[24px] font-semibold">
-        <div><img src={modularKitchen} alt="" /><span>Modular Kitchen</span></div>
-        <div><img src={bedroom} alt="" /><span>Bedroom</span></div>
-        <div><img src={livingRoom} alt="" /><span>Living Room</span></div>
-        <div><img src={homeOffice} alt="" /><span>Home Office</span></div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 [&>*]:justify-self-center [&>div>span]:text-purp [&>div>span]:block [&>div>span]:p-4 [&>div>span]:text-center [&>div>span]:text-[24px] font-semibold">
+          <div>
+            <img src={modularKitchen} alt="" />
+            <span>Modular Kitchen</span>
+          </div>
+          <div>
+            <img src={bedroom} alt="" />
+            <span>Bedroom</span>
+          </div>
+          <div>
+            <img src={livingRoom} alt="" />
+            <span>Living Room</span>
+          </div>
+          <div>
+            <img src={homeOffice} alt="" />
+            <span>Home Office</span>
+          </div>
+        </div>
       </div>
+      <div className="text-[14px] md:text-[18px] px-8 mx-auto max-w-[1000px] text-center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+        purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
+        rhoncus dolor purus non enim praesent elementum facilisis leo, vel
+        fringilla est ullamcorper eget nulla
       </div>
     </div>
   );
