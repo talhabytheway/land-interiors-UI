@@ -9,7 +9,7 @@ import greyBeauty from "../../assets/greyBeauty.png";
 import plantainInterior from "../../assets/plantainInterior.png";
 import roleOfFurniture from "../../assets/roleOfFurniture.png";
 import rectangle from "../../assets/rectangleProj.svg";
-import Carousel from 'react-elastic-carousel'
+import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 
 const breakPoints = [
@@ -58,22 +58,119 @@ const OurProjects = () => {
           </span>
         </div>
       </div>
-      <div className="blogs px-2">
-        <h2 className=" font-medium md:pt-[4rem] max-w-[800px] text-[24px] md:text-[30px] lg:text-[36px] px-10">
+      <div className="blogs px-2 md:pt-[4rem]">
+        <h2 className=" font-medium max-w-[800px] text-[24px] md:text-[30px] lg:text-[36px] px-7 sm:px-10 md:px-15 lg:px-20">
           Blogs
         </h2>
-        <Carousel breakPoints={breakPoints} disableArrowsOnEnd="true" className="relative px-[1rem] md:px-[2rem]">
-          <Item><img src={modernInterior} alt="" /><h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">Modern Interior</h5><span>Lorem ipsum dolor sit amet,  consectetur adipiscing elit ut aliquam,</span></Item>
-          <Item><img src={exteriorProject} alt="" /><h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">Exterior Project</h5><span>Lorem ipsum dolor sit amet,  consectetur adipiscing elit ut aliquam,</span></Item>
-          <Item><img src={greyBeauty} alt="" /><h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">Grey Beauty</h5><span>Lorem ipsum dolor sit amet,  consectetur adipiscing elit ut aliquam,</span></Item>
-          <Item><img src={plantainInterior} alt="" /><h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">Plantation interior</h5><span>Lorem ipsum dolor sit amet,  consectetur adipiscing elit ut aliquam,</span></Item>
-          <Item><img src={roleOfFurniture} alt=""  /><h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">Role of furnitures</h5><span>Lorem ipsum dolor sit amet,  consectetur adipiscing elit ut aliquam,</span></Item>
-          <Item><img src={modernInterior} alt="" /><h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">Modern Interior</h5><span>Lorem ipsum dolor sit amet,  consectetur adipiscing elit ut aliquam,</span></Item>
-          <Item><img src={exteriorProject} alt="" /><h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">Exterior Project</h5><span>Lorem ipsum dolor sit amet,  consectetur adipiscing elit ut aliquam,</span></Item>
-          <Item><img src={greyBeauty} alt="" /><h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">Grey Beauty</h5><span>Lorem ipsum dolor sit amet,  consectetur adipiscing elit ut aliquam,</span></Item>
-          <Item><img src={plantainInterior} alt="" /><h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">Plantation interior</h5><span>Lorem ipsum dolor sit amet,  consectetur adipiscing elit ut aliquam,</span></Item>
-          <Item><img src={roleOfFurniture} alt=""  /><h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">Role of furnitures</h5><span>Lorem ipsum dolor sit amet,  consectetur adipiscing elit ut aliquam,</span></Item>
-      </Carousel>
+        <Carousel
+          breakPoints={breakPoints}
+          disableArrowsOnEnd="true"
+          className="relative px-[1rem] md:px-[2rem]"
+        >
+          <Item>
+            <img src={modernInterior} alt="" />
+            <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
+              Modern Interior
+            </h5>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam,
+            </span>
+          </Item>
+          <Item>
+            <img src={exteriorProject} alt="" />
+            <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
+              Exterior Project
+            </h5>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam,
+            </span>
+          </Item>
+          <Item>
+            <img src={greyBeauty} alt="" />
+            <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
+              Grey Beauty
+            </h5>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam,
+            </span>
+          </Item>
+          <Item>
+            <img src={plantainInterior} alt="" />
+            <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
+              Plantation interior
+            </h5>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam,
+            </span>
+          </Item>
+          <Item>
+            <img src={roleOfFurniture} alt="" />
+            <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
+              Role of furnitures
+            </h5>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam,
+            </span>
+          </Item>
+          <Item>
+            <img src={modernInterior} alt="" />
+            <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
+              Modern Interior
+            </h5>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam,
+            </span>
+          </Item>
+          <Item>
+            <img src={exteriorProject} alt="" />
+            <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
+              Exterior Project
+            </h5>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam,
+            </span>
+          </Item>
+          <Item>
+            <img src={greyBeauty} alt="" />
+            <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
+              Grey Beauty
+            </h5>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam,
+            </span>
+          </Item>
+          <Item>
+            <img src={plantainInterior} alt="" />
+            <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
+              Plantation interior
+            </h5>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam,
+            </span>
+          </Item>
+          <Item>
+            <img src={roleOfFurniture} alt="" />
+            <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
+              Role of furnitures
+            </h5>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam,
+            </span>
+          </Item>
+        </Carousel>
+        <button className="text-[16px] md:text-[24px] font-semibold py-[10px] md:py-[15px] lg:py-[20px] px-[20px] md:px-[30px] lg:px-[50px] bg-purp text-white block mt-5 mx-auto">
+          View All
+        </button>
       </div>
     </div>
   );
