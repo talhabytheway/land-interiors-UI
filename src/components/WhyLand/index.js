@@ -73,7 +73,7 @@ const WhyLand = () => {
           />
         </div>
       </div>
-      <h2 className=" font-medium md:pt-[4rem] max-w-[800px] text-[24px] md:text-[30px] lg:text-[36px] text-center mx-auto pt-10">
+      <h2 id="About" className=" font-medium md:pt-[4rem] max-w-[800px] text-[24px] md:text-[30px] lg:text-[36px] text-center mx-auto pt-10">
         What we do?
       </h2>
       <div className="p-10 mx-auto">

@@ -42,9 +42,9 @@ const NavBar = () => {
             offset={-70}
             duration={500}
             activeClass="active"
-            to="home"
+            to="About"
           >
-            Home
+            About
           </Link>
         </li>
         <li>
@@ -54,9 +54,9 @@ const NavBar = () => {
             offset={-70}
             duration={500}
             activeClass="active"
-            to="services"
+            to="Projects"
           >
-            Services
+            Projects
           </Link>
         </li>
         <li>
@@ -66,9 +66,9 @@ const NavBar = () => {
             offset={-70}
             duration={500}
             activeClass="active"
-            to="projects"
+            to="Studio"
           >
-            Our Projects
+            Our Studio
           </Link>
         </li>
         <li>
@@ -78,9 +78,21 @@ const NavBar = () => {
             offset={-70}
             duration={500}
             activeClass="active"
-            to="about"
+            to="Blog"
           >
-            About Us
+            Blog
+          </Link>
+        </li>
+        <li>
+          <Link
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            activeClass="active"
+            to="Contact"
+          >
+            Contact
           </Link>
         </li>
         <li className="lg:hidden text-purp">Join as Design Expert</li>

@@ -5,6 +5,8 @@ import linkedIn from "../../assets/linkedIn.svg";
 import twitter from "../../assets/twitter.svg";
 import youtube from "../../assets/youtube.svg";
 import instagram from "../../assets/instagram.svg";
+import { Link } from "react-scroll";
+
 
 const Footer = () => {
   return (
@@ -36,24 +38,79 @@ const Footer = () => {
           <li className="hidden lg:inline-block m-0 font-semibold lg:!pb-4 text-[#4F4F4F]">
             Get in touch
           </li>
-          <li>landinteriors@gmail.com</li>
-          <li>+91 98987 65656</li>
+          <li><a href="mailto:landinteriors@gmail.com">landinteriors@gmail.com</a></li>
+          <li><a href="tel:+923047916775">+92 304 7916775</a></li>
         </ul>
       </div>
       <div className="flex flex-row justify-center lg:justify-between">
         <div className="flex flex-row gap-6">
-          <img src={facebook} alt="" />
-          <img src={linkedIn} alt="" />
-          <img src={twitter} alt="" />
-          <img src={youtube} alt="" />
-          <img src={instagram} alt="" />
+          <a href="http://www.facebook.com/talhabytheway"></a><img src={facebook} alt="" />
+          <a href="https://www.linkedin.com/in/talhabytheway"></a><img src={linkedIn} alt="" />
+          <a href="https://twitter.com/talhaism_"></a><img src={twitter} alt="" />
+          <a href="http://www.youtube.com/talhabytheway"></a><img src={youtube} alt="" />
+          <a href="http://www.instagram.com/talhabytheway"></a><img src={instagram} alt="" />
         </div>
-        <div className="hidden lg:flex flex-row gap-10">
-          <span>About</span>
-          <span>Projects</span>
-          <span>Studio</span>
-          <span>Blog</span>
-          <span>Contact</span>
+        <div className="hidden lg:flex flex-row gap-10 hover:[&>*]:cursor-pointer">
+        <span>
+          <Link
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            activeClass="active"
+            to="About"
+          >
+            About
+          </Link>
+        </span>
+        <span>
+          <Link
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            activeClass="active"
+            to="Projects"
+          >
+            Projects
+          </Link>
+        </span>
+        <span>
+          <Link
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            activeClass="active"
+            to="Studio"
+          >
+            Our Studio
+          </Link>
+        </span>
+        <span>
+          <Link
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            activeClass="active"
+            to="Blog"
+          >
+            Blog
+          </Link>
+        </span>
+        <span>
+          <Link
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            activeClass="active"
+            to="Contact"
+          >
+            Contact
+          </Link>
+        </span>
         </div>
       </div>
     </div>

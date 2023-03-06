@@ -22,7 +22,7 @@ const breakPoints = [
 
 const OurProjects = () => {
   return (
-    <div
+    <div id="Projects"
       className="lg:max-w-[1440px] xl:max-w-[1600px] mx-auto relative min-h-[400px] sm:min-h-[500px] py-20 bg-cover"
       style={{ backgroundImage: `url(${rectangle})` }}
     >
@@ -58,7 +58,7 @@ const OurProjects = () => {
           </span>
         </div>
       </div>
-      <div className="blogs px-2 md:pt-[4rem]">
+      <div id="Blog" className="blogs px-2 md:pt-[4rem]">
         <h2 className=" font-medium max-w-[800px] text-[24px] md:text-[30px] lg:text-[36px] px-7 sm:px-10 md:px-15 lg:px-20">
           Blogs
         </h2>

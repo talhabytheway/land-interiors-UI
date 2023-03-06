@@ -2,7 +2,7 @@ import React from "react";
 
 const Talk = () => {
   return (
-    <div className="my-16 px-[1.5rem] md:px-[4rem] lg:px-[6rem] flex flex-col gap-10 xl:max-w-[1440px] xl:mx-auto">
+    <div id="Contact" className="my-16 px-[1.5rem] md:px-[4rem] lg:px-[6rem] flex flex-col gap-10 xl:max-w-[1440px] xl:mx-auto">
       <h2 className="font-medium text-[20px] sm:text-[24px] md:text-[30px] lg:text-[36px]">
         Let talk about your Dream home
       </h2>
