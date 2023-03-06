@@ -44,11 +44,11 @@ const Footer = () => {
       </div>
       <div className="flex flex-row justify-center lg:justify-between">
         <div className="flex flex-row gap-6">
-          <a href="http://www.facebook.com/talhabytheway"></a><img src={facebook} alt="" />
-          <a href="https://www.linkedin.com/in/talhabytheway"></a><img src={linkedIn} alt="" />
-          <a href="https://twitter.com/talhaism_"></a><img src={twitter} alt="" />
-          <a href="http://www.youtube.com/talhabytheway"></a><img src={youtube} alt="" />
-          <a href="http://www.instagram.com/talhabytheway"></a><img src={instagram} alt="" />
+          <a href="http://www.facebook.com/talhabytheway" target={"_blank"}><img src={facebook} alt="" /></a>
+          <a href="https://www.linkedin.com/in/talhabytheway" target={"_blank"}><img src={linkedIn} alt="" /></a>
+          <a href="https://twitter.com/talhaism_" target={"_blank"}><img src={twitter} alt="" /></a>
+          <a href="http://www.youtube.com/talhabytheway" target={"_blank"}><img src={youtube} alt="" /></a>
+          <a href="http://www.instagram.com/talhabytheway" target={"_blank"}><img src={instagram} alt="" /></a>
         </div>
         <div className="hidden lg:flex flex-row gap-10 hover:[&>*]:cursor-pointer">
         <span>
