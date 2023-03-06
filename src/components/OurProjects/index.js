@@ -64,7 +64,7 @@ const OurProjects = () => {
         </h2>
         <Carousel
           breakPoints={breakPoints}
-          disableArrowsOnEnd="true"
+          disableArrowsOnEnd={true}
           className="relative px-[1rem] md:px-[2rem]"
         >
           <Item>
