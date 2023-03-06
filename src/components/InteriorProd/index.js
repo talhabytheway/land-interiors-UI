@@ -8,7 +8,7 @@ import prod6 from "../../assets/prod6.png";
 
 const InteriorProd = () => {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10  xl:max-w-[1440px] xl:mx-auto">
       <h2 className="text-purpD font-medium text-[20px] sm:text-[24px] md:text-[30px] lg:text-[36px] text-center">
         Our Interior Design Products
       </h2>
