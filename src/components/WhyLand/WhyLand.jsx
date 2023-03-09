@@ -20,16 +20,16 @@ const WhyLand = () => {
       </h2>
       <div className="text-[14px] md:text-[18px] py-12 flex gap-10 flex-col md:flex-row justify-between md:max-w-[800px] lg:max-w-[1024px] text-center mx-auto">
         <div className="w-[100px] md:w-[150px] mx-auto">
+          <img src={calendar} alt="" className="mx-auto" />
+          <span className="pt-3 inline-block">50 days or we pay you rent</span>
+        </div>
+        <div className="w-[100px] md:w-[150px] mx-auto">
           <img src={home} alt="home" className="mx-auto" />
           <span className="pt-3 inline-block">1500+happy customers</span>
         </div>
         <div className="w-[100px] md:w-[150px] mx-auto">
           <img src={certificate} alt="" className="mx-auto" />
           <span className="pt-3 inline-block">300+ design experties</span>
-        </div>
-        <div className="w-[100px] md:w-[150px] mx-auto">
-          <img src={calendar} alt="" className="mx-auto" />
-          <span className="pt-3 inline-block">50 days or we pay you rent</span>
         </div>
       </div>
       <div className="relative">

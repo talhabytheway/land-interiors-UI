@@ -1,11 +1,11 @@
-import NavBar from './components/NavBar'
-import Hero from './components/Hero'
-import WhyLand from './components/WhyLand'
-import OurProjects from './components/OurProjects'
-import InteriorProd from './components/InteriorProd'
-import Customers from './components/Customers'
-import Talk from './components/Talk'
-import Footer from './components/Footer'
+import NavBar from './components/NavBar/NavBar'
+import Hero from './components/Hero/Hero'
+import WhyLand from './components/WhyLand/WhyLand'
+import OurProjects from './components/OurProjects/OurProjects'
+import InteriorProd from './components/InteriorProd/InteriorProd'
+import Customers from './components/Customers/Customers'
+import Talk from './components/Talk/Talk'
+import Footer from './components/Footer/Footer'
 function App() {
   return (
     <div className="font-pop">

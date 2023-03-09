@@ -6,7 +6,7 @@ import customerPP from "../../assets/customerPP.png";
 
 const Customers = () => {
   return (
-    <div className="my-20 flex flex-col gap-10 xl:max-w-[1400px] xl:mx-auto">
+    <div className="my-20 flex flex-col gap-10 xl:max-w-[1400px] xl:mx-auto customers">
       <h2 className="text-purpD font-medium text-[20px] sm:text-[24px] md:text-[30px] lg:text-[36px] text-center">
         Our Happy Costumers
       </h2>

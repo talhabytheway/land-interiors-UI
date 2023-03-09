@@ -37,7 +37,7 @@ const OurProjects = () => {
         </div>
       </div>
       <div className="mx-auto w-full md:w-auto lg:absolute right-0 lg:right-0 lg:top-[150px]">
-        <div className="bg-white bg-opacity-80 lg:max-w-[700px] xl:max-w-[1000px] sm:max-w-auto px-10 sm:mx-4 md:mx-0 py-[1rem] md:p-[2rem] text-center [&>*]:pt-3">
+        <div className="bg-white bg-opacity-80 lg:max-w-[700px] xl:max-w-[1000px] sm:max-w-auto px-10 sm:mx-4 md:mx-0 py-[1rem] md:p-[2rem] text-center [&>h2]:pt-3 [&>p]:pt-3">
           <h2 className="text-purpD font-medium text-[20px] sm:text-[24px] md:text-[30px] lg:text-[36px]">
             Our Projects
           </h2>
@@ -53,9 +53,9 @@ const OurProjects = () => {
             praesent elementum facilisis leo, vel fringilla est ullamcorper eget
             nulla
           </p>
-          <span className="text-[16px] md:text-[24px] font-semibold py-[15px] md:py-[20px] lg:py-[25px] px-[20px] md:px-[30px] lg:px-[50px] bg-purp text-white inline-block mt-5">
-            View All
-          </span>
+          <button className="text-[16px] md:text-[24px] font-semibold py-[10px] md:py-[15px] lg:py-[20px] px-[20px] md:px-[30px] lg:px-[50px] bg-purp text-white block mt-5 mx-auto">
+          View All
+        </button>
         </div>
       </div>
       <div id="Blog" className="blogs px-2 md:pt-[4rem]">
