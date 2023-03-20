@@ -33,12 +33,12 @@ const WhyLand = () => {
         </div>
       </div>
       <div className="relative">
-        <div className=" text-purpD text-center lg:max-w-[600px] bg-white bg-opacity-80 absolute h-full md:h-auto left-0 lg:left-10 xl:left-[20%] md:top-5 mix-w-[40%] max-w-[50%] py-4">
-          <div className="h-full flex flex-col justify-center px-5">
+        <div className=" text-purpD text-center lg:max-w-[600px] bg-white bg-opacity-80 absolute h-full md:h-auto left-0 lg:left-10 xl:left-[12%] md:top-5 xl:top-3 mix-w-[40%] max-w-[50%]  ">
+          <div className="h-full flex flex-col justify-center px-5 xl:px-20 xl:py-5">
             <h2 className="text-[24px] md:text-[30px] lg:[36px]">
               Make your dream interior in
             </h2>
-            <p className="text-[36px] md:text-[42px] font-semibold">
+            <p className="text-[36px] md:text-[40px] font-semibold pb-2">
               3 easy steps
             </p>
             <div className="[&>div>h4]:text-purp [&>div>h4]:text-[20px] [&>div>h4]:sm:text-[24px] [&>div>h4]:md:text-[30px] [&>div>h4]:lg:text-[36px] [&>div>span]:text-[12px] [&>div>span]:sm:text-[14px] [&>div>span]:md:text-[16px] [&>div>span]:lg:text-[18px] [&>div>span]:inline-block [&>div>span]:max-w-[300px] [&>div>span]:lg:max-w-[400px]">
