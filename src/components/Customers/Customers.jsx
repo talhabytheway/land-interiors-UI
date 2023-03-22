@@ -20,32 +20,14 @@ const Customers = () => {
         disableArrowsOnEnd={true}
         className="relative px-[1rem] md:px-[2rem]"
       >
-        <Item className="pb-[10%] relative h-[350px] sm:h-[400px] md:h-[500px] ">
+<Item className="pb-[10%] relative h-[350px] sm:h-[400px] md:h-[500px] ">
           <img src={carousel1} alt="" className="w-full object-cover" />
           <div className="absolute bottom-[5%] left-[15%] z-8 ">
             <div className="relative bg-white w-[80%]">
               <img
                 src={customerPP}
                 alt=""
-                className="absolute w-[100px] md:w-[150px] lg:w-[200px] top-[-30%] md:top-[-60%] lg:top-[-80%] right-[40%] md:right-[37%] lg:right-[40%]"
-              />
-              <p className="!pt-16 p-1 sm:p-4 md:p-6 text-[14px] md:text-[16px] lg:text-[18px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                aliquam, purus sit amet luctus venenatis, lectus magna fringilla
-                urna, porttitor
-              </p>
-              <span>-Jeo Stanlee</span>
-            </div>
-          </div>
-        </Item>
-        <Item className="pb-[10%] relative h-[350px] sm:h-[400px] md:h-[500px] ">
-          <img src={carousel1} alt="" className="w-full object-cover" />
-          <div className="absolute bottom-[5%] left-[15%] z-8 ">
-            <div className="relative bg-white w-[80%]">
-              <img
-                src={customerPP}
-                alt=""
-                className="absolute w-[100px] md:w-[150px] lg:w-[200px] top-[-30%] md:top-[-60%] lg:top-[-80%] right-[40%] md:right-[37%] lg:right-[40%]"
+                className="absolute w-[100px] md:w-[150px] lg:w-[200px] sm:top-[-30%] md:top-[-60%] lg:top-[-80%] right-[27%] top-[-20%] sm:right-[40%] md:right-[37%] lg:right-[40%]"
               />
               <p className="!pt-16 p-1 sm:p-4 md:p-6 text-[14px] md:text-[16px] lg:text-[18px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
@@ -63,14 +45,32 @@ const Customers = () => {
               <img
                 src={customerPP}
                 alt=""
-                className="absolute w-[100px] md:w-[150px] lg:w-[200px] top-[-30%] md:top-[-60%] lg:top-[-80%] right-[40%] md:right-[37%] lg:right-[40%]"
+                className="absolute w-[100px] md:w-[150px] lg:w-[200px] sm:top-[-30%] md:top-[-60%] lg:top-[-80%] right-[27%] top-[-20%] sm:right-[40%] md:right-[37%] lg:right-[40%]"
               />
               <p className="!pt-16 p-1 sm:p-4 md:p-6 text-[14px] md:text-[16px] lg:text-[18px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                 aliquam, purus sit amet luctus venenatis, lectus magna fringilla
                 urna, porttitor
               </p>
-              <span>-Muhammad Talha</span>
+              <span>-Zain Ul Abideen</span>
+            </div>
+          </div>
+        </Item>
+        <Item className="pb-[10%] relative h-[350px] sm:h-[400px] md:h-[500px] ">
+          <img src={carousel1} alt="" className="w-full object-cover" />
+          <div className="absolute bottom-[5%] left-[15%] z-8 ">
+            <div className="relative bg-white w-[80%]">
+              <img
+                src={customerPP}
+                alt=""
+                className="absolute w-[100px] md:w-[150px] lg:w-[200px] sm:top-[-30%] md:top-[-60%] lg:top-[-80%] right-[27%] top-[-20%] sm:right-[40%] md:right-[37%] lg:right-[40%]"
+              />
+              <p className="!pt-16 p-1 sm:p-4 md:p-6 text-[14px] md:text-[16px] lg:text-[18px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+                urna, porttitor
+              </p>
+              <span>-Zain Ul Abideen</span>
             </div>
           </div>
         </Item>
