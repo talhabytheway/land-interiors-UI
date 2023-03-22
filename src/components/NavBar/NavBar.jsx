@@ -8,7 +8,7 @@ const NavBar = () => {
   const [open, setopen] = useState(false);
 
   return (
-    <header className={`bg-dark sticky lg:relative top-0 z-10 font-medium text-[20px]`}>
+    <header className={`bg-dark sticky lg:relative top-0 font-medium text-[20px] z-[10000]`}>
       <div
         className={`xl:mx-auto px-[1.5rem] lg:max-w-[1440px] xl:max-w-[1600px]  flex py-5 justify-between items-center select-none transition-all ease-linear duration-650`}
       >
@@ -25,7 +25,7 @@ const NavBar = () => {
           className={`cursor-pointer lg:hidden block transition-all ease-in duration-500 content-center`}
           onClick={() => setopen(!open)}
         >
-          <img src={open ? close : menu} alt="" className="w-10" />
+          <img src={open ? close : menu} alt="" className={open ? 'h-10' : 'h-6'} />
         </span>
       </div>
       <ul
