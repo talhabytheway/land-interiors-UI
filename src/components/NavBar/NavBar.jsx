@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import menu from "../../assets/menu.svg";
 import close from "../../assets/close.svg";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.svg";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [open, setopen] = useState(false);
 
   return (
-    <header className={`bg-dark sticky lg:relative top-0 font-medium text-[20px] z-[10000]`}>
+    <header className={`bg-dark sticky lg:relative top-0 font-medium text-[20px] z-[10000] lg:py-[1.5rem]`}>
       <div
         className={`xl:mx-auto px-[1.5rem] lg:max-w-[1440px] xl:max-w-[1600px]  flex py-5 justify-between items-center select-none transition-all ease-linear duration-650`}
       >

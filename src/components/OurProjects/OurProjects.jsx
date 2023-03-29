@@ -58,7 +58,7 @@ const OurProjects = () => {
         </button>
         </div>
       </div>
-      <div id="Blog" className="blogs px-2 md:pt-[4rem]">
+      <div id="Blog" className="blogs md:pt-[4rem]">
         <h2 className=" font-medium max-w-[800px] text-[24px] md:text-[30px] lg:text-[36px] px-7 sm:px-10 md:px-15 lg:px-20">
           Blogs
         </h2>
