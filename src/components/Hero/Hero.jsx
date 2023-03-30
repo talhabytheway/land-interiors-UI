@@ -3,7 +3,7 @@ import heroImg from "../../assets/heroImg.png";
 
 const Hero = () => {
   return (
-    <div className="lg:max-w-[1440px] xl:max-w-[1600px] mx-auto relative min-h-[400px] sm:min-h-[500px] lg:mt-[3rem] xl:mt-[3rem]">
+    <div className="lg:max-w-[1440px] xl:max-w-[1600px] mx-auto relative min-h-[450px] xs:min-h-[400px] sm:min-h-[500px] lg:mt-[3rem] xl:mt-[3rem]">
       <img src={heroImg} alt="" className="w-full md:max-w-[786px] lg:max-w-[900px]" />
       <div className="mx-auto w-full md:w-auto absolute top-[40%] sm:top-[45%] right-0 lg:right-[1%] md:top-[70px] lg:top-[50px]">
       <div className="bg-white bg-opacity-80 max-w-[375] sm:max-w-auto mx-2 sm:mx-4 md:mx-0 py-[1rem] md:py-[2rem] md:px-[4rem] lg:py-[4rem] lg:px-[8rem]  text-center">
