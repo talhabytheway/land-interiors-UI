@@ -10,14 +10,14 @@ const NavBar = () => {
   return (
     <header className={`bg-dark sticky lg:relative top-0 font-medium text-[20px] z-[10000] lg:py-[1.5rem]`}>
       <div
-        className={`xl:mx-auto px-[1.5rem] lg:max-w-[1440px] xl:max-w-[1600px]  flex py-5 justify-between items-center select-none transition-all ease-linear duration-650`}
+        className={`xl:mx-auto px-[2rem] lg:max-w-[1440px] xl:max-w-[1600px]  flex py-5 lg:pb-0 justify-between items-center select-none transition-all ease-linear duration-650`}
       >
         <img
           src={logo}
           alt="Land Interior Logo"
           className="my-auto hover:cursor-pointer h-[50px] md:h-[70px] lg:h-[100px] "
         />
-        <div className="my-auto text-purp [&>*]:pl-20 hidden lg:inline [&>*]:hover:cursor-pointer">
+        <div className="my-auto text-[#451A64] [&>*]:pl-20 lg:mr-[1.5rem] hidden lg:inline [&>*]:hover:cursor-pointer">
           <span>Join as Design Expert</span>
           <span>Partner with LAND Interiors</span>
         </div>
@@ -29,7 +29,7 @@ const NavBar = () => {
         </span>
       </div>
       <ul
-        className={`block pb-5 absolute px-[2rem] lg:flex lg:justify-center flex-wrap transition-all ease-in duration-500 w-[100vw] left-[0] lg:w-auto lg:z-auto lg:sticky  lg:bg-none  lg:space-x-20 space-y-2.5 lg:space-y-0 my-auto p-3 lg:mb-auto hover:[&>*]:text-blue hover:[&>*]:duration-500 hover:[&>*]:cursor-pointer ${
+        className={`block pb-5 absolute px-[2rem] lg:flex lg:justify-center flex-wrap transition-all ease-in duration-500 w-[100vw] left-[0] lg:w-auto lg:z-auto lg:sticky  lg:bg-none  lg:space-x-20 space-y-2.5 lg:space-y-0 my-auto p-3 lg:pt-0 lg:mb-auto hover:[&>*]:text-blue hover:[&>*]:duration-500 hover:[&>*]:cursor-pointer ${
           open
             ? " top-[70px] md:top-[100px] opacity-100 bg-dark lg:bg-transparent"
             : " top-[-300px]"

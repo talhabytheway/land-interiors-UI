@@ -11,15 +11,15 @@ const Talk = () => {
           <input
             type="text"
             placeholder="Name"
-            className="border-b-2 w-full lg:max-w-[35%] p-2 focus-visible:outline-none"
+            className="border-b-2 placeholder:lg:text-[24px] w-full lg:max-w-[35%] p-2 focus-visible:outline-none"
           />
           <input
             type="text"
             placeholder="Email/Phone"
-            className="border-b-2 w-full lg:max-w-[35%] p-2 focus-visible:outline-none"
+            className="border-b-2 placeholder:lg:text-[24px] w-full lg:max-w-[35%] p-2 focus-visible:outline-none"
           />
-          <button className="text-[16px] md:text-[20px] font-semibold py-[10px] md:py-[15px] lg:py-[20px] px-[20px] md:px-[30px] lg:px-[50px] bg-purp text-white block mx-auto lg:mx-0">
-            View All
+          <button className="text-[16px] md:text-[20px] font-semibold py-[10px] md:py-[15px] lg:py-[20px] px-[20px] md:px-[30px] lg:px-[70px] xl:px-[80px]  bg-purp text-white block mx-auto lg:mx-0">
+            Send
           </button>
         </div>
       </div>

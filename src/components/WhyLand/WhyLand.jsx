@@ -15,7 +15,7 @@ const WhyLand = () => {
       className="lg:max-w-[1440px] xl:max-w-[1600px] lg:mx-auto bg-cover"
       style={{ backgroundImage: `url(${rectangle})` }}
     >
-      <h2 className=" font-medium md:pt-[4rem] max-w-[800px] text-[24px] md:text-[30px] lg:text-[36px] text-center mx-auto">
+<h2 className=" font-medium md:pt-[4rem] max-w-[800px] text-[24px] md:text-[30px] lg:text-[36px] text-center mx-auto my-6 lg:my-10">
         Why LAND Interiors
       </h2>
       <div className="text-[14px] md:text-[18px] py-12 flex gap-10 flex-col md:flex-row justify-between md:max-w-[800px] lg:max-w-[1024px] text-center mx-auto">
@@ -33,8 +33,8 @@ const WhyLand = () => {
         </div>
       </div>
       <div className="relative">
-        <div className=" text-purpD text-center lg:max-w-[600px] bg-white bg-opacity-80 absolute h-full md:h-auto left-0 lg:left-10 xl:left-[12%] md:top-5 xl:top-3 mix-w-[40%] max-w-[50%]  ">
-          <div className="h-full flex flex-col justify-center px-5 xl:px-20 xl:py-5">
+        <div className=" text-purpD text-center lg:max-w-[600px] bg-white bg-opacity-80 absolute h-full md:h-auto left-0 xl:left-[0%] md:top-[-1%] lg:top-8 xl:top-4 mix-w-[40%] max-w-[50%]">
+          <div className="h-full flex flex-col justify-center px-5 lg:px-16 xl:px-24 md:py-6 lg:py-10">
             <h2 className="text-[24px] md:text-[30px] lg:[36px]">
               Make your dream interior in
             </h2>
@@ -66,10 +66,10 @@ const WhyLand = () => {
           </div>
         </div>
         <div className="flex w-full h-full justify-end">
-          <img
+        <img
             src={img}
             alt=""
-            className="object-cover h-[550px] sm:h-[500px] md:min-w-[786px] lg:min-w-[900px]"
+            className="object-cover h-[550px] lg:h-[600px] sm:h-[500px] md:min-w-[786px] lg:min-w-[1000px] xl:min-w-[1100px]"
           />
         </div>
       </div>

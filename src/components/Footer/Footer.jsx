@@ -19,7 +19,7 @@ const Footer = () => {
         />
       </div>
       <div className="lg:flex lg:flex-row lg:justify-between align-top">
-        <p className="hidden lg:inline-block lg:max-w-[500px] xl:max-w-[600px] w-[40%]">
+        <p className="hidden lg:inline-block lg:max-w-[500px] xl:max-w-[650px] w-[45%] leading-7 text-[18px]">
           We introduce our selves as LAND Interior and Architectural Design
           Consultancy – one of the best interior designers in Chennai. Chennai
           Luxury Interior and Architectural Design Consultancy has challenged
@@ -84,7 +84,7 @@ const Footer = () => {
             activeClass="active"
             to="Studio"
           >
-            Our Studio
+            Studio
           </Link>
         </span>
         <span>

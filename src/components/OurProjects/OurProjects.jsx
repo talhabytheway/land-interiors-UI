@@ -37,17 +37,17 @@ const OurProjects = () => {
         </div>
       </div>
       <div className="mx-auto w-full md:w-auto lg:absolute right-0 lg:right-0 lg:top-[150px]">
-        <div className="bg-white bg-opacity-80 lg:max-w-[700px] xl:max-w-[1000px] sm:max-w-auto px-10 sm:mx-4 md:mx-0 py-[1rem] md:p-[2rem] text-center [&>h2]:pt-3 [&>p]:pt-3">
+        <div className="bg-white bg-opacity-80 lg:max-w-[700px] xl:max-w-[1000px] sm:max-w-auto px-10 sm:mx-4 md:mx-0 py-[1rem] md:px-[68px] text-center [&>h2]:pt-3 [&>p]:pt-3">
           <h2 className="text-purpD font-medium text-[36px] text-left lg:text-center">
             Our Projects
           </h2>
-          <p className="text-[24px] text-left lg:text-center lg:text-[18px]">
+          <p className="text-[18px] md:text-[24px] text-left lg:text-center lg:text-[18px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
             purus sit amet luctus venenatis, lectus magna fringilla urna,
             porttitor rhoncus dolor purus non enim praesent elementum facilisis
             leo, vel fringilla est ullamcorper eget nulla
           </p>
-          <p className="text-[24px] text-left lg:text-center lg:text-[18px]">
+          <p className="text-[18px] md:text-[24px] text-left lg:text-center lg:text-[18px]">
             {" "}
             magna fringilla urna, porttitor rhoncus dolor purus non enim
             praesent elementum facilisis leo, vel fringilla est ullamcorper eget
@@ -59,7 +59,7 @@ const OurProjects = () => {
         </div>
       </div>
       <div id="Blog" className="blogs md:pt-[4rem]">
-        <h2 className=" font-medium max-w-[800px] text-[24px] md:text-[30px] lg:text-[36px] px-7 sm:px-10 md:px-15 lg:px-20">
+        <h2 className="text-purpD font-medium max-w-[800px] text-[24px] md:text-[30px] lg:text-[36px] px-7 sm:px-10 md:px-15 lg:px-20">
           Blogs
         </h2>
         <Carousel
