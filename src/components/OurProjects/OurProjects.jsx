@@ -28,12 +28,12 @@ const OurProjects = () => {
     >
       <div className="grid sm:grid-cols-2 md:w-full lg:max-w-[780px] px-10 [&>div>img]:p-[2.5%] [&>div>img]:mx-auto">
         <div>
-          <img src={projects1} alt="" />
-          <img src={projects2} alt="" />
+          <img src={projects1} alt="projects1" />
+          <img src={projects2} alt="projects2" />
         </div>
         <div>
-          <img src={projects3} alt="" />
-          <img src={projects4} alt="" />
+          <img src={projects3} alt="projects3" />
+          <img src={projects4} alt="projects4" />
         </div>
       </div>
       <div className="mx-auto w-full md:w-auto lg:absolute right-0 lg:right-0 lg:top-[150px]">
@@ -68,7 +68,7 @@ const OurProjects = () => {
           className="relative px-[1rem] md:px-[2rem]"
         >
           <Item>
-            <img src={modernInterior} alt="" />
+            <img src={modernInterior} alt="modernInterior" />
             <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
               Modern Interior
             </h5>
@@ -78,7 +78,7 @@ const OurProjects = () => {
             </span>
           </Item>
           <Item>
-            <img src={exteriorProject} alt="" />
+            <img src={exteriorProject} alt="exteriorProject" />
             <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
               Exterior Project
             </h5>
@@ -88,7 +88,7 @@ const OurProjects = () => {
             </span>
           </Item>
           <Item>
-            <img src={greyBeauty} alt="" />
+            <img src={greyBeauty} alt="greyBeauty" />
             <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
               Grey Beauty
             </h5>
@@ -98,7 +98,7 @@ const OurProjects = () => {
             </span>
           </Item>
           <Item>
-            <img src={plantainInterior} alt="" />
+            <img src={plantainInterior} alt="plantainInterior" />
             <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
               Plantation interior
             </h5>
@@ -108,7 +108,7 @@ const OurProjects = () => {
             </span>
           </Item>
           <Item>
-            <img src={roleOfFurniture} alt="" />
+            <img src={roleOfFurniture} alt="roleOfFurniture" />
             <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
               Role of furnitures
             </h5>
@@ -118,7 +118,7 @@ const OurProjects = () => {
             </span>
           </Item>
           <Item>
-            <img src={modernInterior} alt="" />
+            <img src={modernInterior} alt="modernInterior" />
             <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
               Modern Interior
             </h5>
@@ -128,7 +128,7 @@ const OurProjects = () => {
             </span>
           </Item>
           <Item>
-            <img src={exteriorProject} alt="" />
+            <img src={exteriorProject} alt="exteriorProject" />
             <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
               Exterior Project
             </h5>
@@ -138,7 +138,7 @@ const OurProjects = () => {
             </span>
           </Item>
           <Item>
-            <img src={greyBeauty} alt="" />
+            <img src={greyBeauty} alt="greyBeauty" />
             <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
               Grey Beauty
             </h5>
@@ -148,7 +148,7 @@ const OurProjects = () => {
             </span>
           </Item>
           <Item>
-            <img src={plantainInterior} alt="" />
+            <img src={plantainInterior} alt="plantainInterior" />
             <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
               Plantation interior
             </h5>
@@ -158,7 +158,7 @@ const OurProjects = () => {
             </span>
           </Item>
           <Item>
-            <img src={roleOfFurniture} alt="" />
+            <img src={roleOfFurniture} alt="roleOfFurniture" />
             <h5 className="w-full font-medium text-[16px] md::text-[20px] lg:text-[24px] mt-1 mb-2">
               Role of furnitures
             </h5>

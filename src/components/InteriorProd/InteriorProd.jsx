@@ -12,16 +12,16 @@ const InteriorProd = () => {
       <h2 className="text-purpD font-medium text-[20px] sm:text-[24px] md:text-[30px] lg:text-[36px] text-center">
         Our Interior Design Products
       </h2>
-      <div class=" grid md:grid-cols-4 max-md:grid-cols-2 grid-rows-2 gap-2 max-h-[70vh] w-[80.333%] mx-auto [&>img]:w-full [&>img]:h-full [&>img]:object-cover">
-        <img src={prod1} alt="" />
-        <img src={prod3} alt="" class=" row-start-1 row-end-3 col-start-2 " />
-        <img src={prod2} alt="" />
-        <img src={prod4} alt="" />
-        <img src={prod5} alt="" />
+      <div className=" grid md:grid-cols-4 max-md:grid-cols-2 grid-rows-2 gap-2 max-h-[70vh] w-[80.333%] mx-auto [&>img]:w-full [&>img]:h-full [&>img]:object-cover">
+        <img src={prod1} alt="product1" />
+        <img src={prod3} alt="product3" className=" row-start-1 row-end-3 col-start-2 " />
+        <img src={prod2} alt="product2" />
+        <img src={prod4} alt="product4" />
+        <img src={prod5} alt="product5" />
         <img
           src={prod6}
-          alt=""
-          class="row-start-1 row-end-3 col-start-4 column-end-5 "
+          alt="product6"
+          className="row-start-1 row-end-3 col-start-4 column-end-5 "
         />
       </div>
       <div className="text-[14px] md:text-[18px] px-8 mx-auto max-w-[600px] text-center">

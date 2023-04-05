@@ -25,7 +25,7 @@ const NavBar = () => {
           className={`cursor-pointer lg:hidden block transition-all ease-in duration-500 content-center`}
           onClick={() => setopen(!open)}
         >
-          <img src={open ? close : menu} alt="" className="h-10" />
+          <img src={open ? close : menu} alt="hamburger" className="h-10" />
         </span>
       </div>
       <ul

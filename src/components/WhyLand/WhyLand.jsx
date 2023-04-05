@@ -3,7 +3,7 @@ import home from "../../assets/home.svg";
 import certificate from "../../assets/certificate.svg";
 import calendar from "../../assets/calander.svg";
 import rectangle from "../../assets/rectangleWhyLand.svg";
-import img from "../../assets/heroImg2.png";
+import hero from "../../assets/heroImg2.png";
 import modularKitchen from "../../assets/modularKitchen.png";
 import bedroom from "../../assets/bedroom.png";
 import livingRoom from "../../assets/livingRoom.png";
@@ -20,7 +20,7 @@ const WhyLand = () => {
       </h2>
       <div className="text-[14px] md:text-[18px] py-12 flex gap-10 flex-col md:flex-row justify-between md:max-w-[800px] lg:max-w-[1024px] text-center mx-auto">
         <div className="w-[100px] md:w-[150px] mx-auto">
-          <img src={calendar} alt="" className="mx-auto" />
+          <img src={calendar} alt="calendar" className="mx-auto" />
           <span className="pt-3 inline-block">50 days or we pay you rent</span>
         </div>
         <div className="w-[100px] md:w-[150px] mx-auto">
@@ -28,7 +28,7 @@ const WhyLand = () => {
           <span className="pt-3 inline-block">1500+happy customers</span>
         </div>
         <div className="w-[100px] md:w-[150px] mx-auto">
-          <img src={certificate} alt="" className="mx-auto" />
+          <img src={certificate} alt="certificate" className="mx-auto" />
           <span className="pt-3 inline-block">300+ design experties</span>
         </div>
       </div>
@@ -67,8 +67,8 @@ const WhyLand = () => {
         </div>
         <div className="flex w-full h-full justify-end">
         <img
-            src={img}
-            alt=""
+            src={hero}
+            alt="hero"
             className="object-cover h-[550px] lg:h-[600px] sm:h-[500px] md:min-w-[786px] lg:min-w-[1000px] xl:min-w-[1100px]"
           />
         </div>
@@ -79,19 +79,19 @@ const WhyLand = () => {
       <div className="p-10 mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 [&>*]:justify-self-center [&>div>span]:text-purp [&>div>span]:block [&>div>span]:p-4 [&>div>span]:text-center [&>div>span]:text-[24px] font-semibold">
           <div>
-            <img src={modularKitchen} alt="" />
+            <img src={modularKitchen} alt="modularKitchen" />
             <span>Modular Kitchen</span>
           </div>
           <div>
-            <img src={bedroom} alt="" />
+            <img src={bedroom} alt="bedroom" />
             <span>Bedroom</span>
           </div>
           <div>
-            <img src={livingRoom} alt="" />
+            <img src={livingRoom} alt="livingRoom" />
             <span>Living Room</span>
           </div>
           <div>
-            <img src={homeOffice} alt="" />
+            <img src={homeOffice} alt="homeOffice" />
             <span>Home Office</span>
           </div>
         </div>

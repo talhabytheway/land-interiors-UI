@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="w-full">
         <img
           src={logo}
-          alt=""
+          alt="logo"
           className="h-16 md:h-20 lg:h-24 mx-auto lg:mx-0"
         />
       </div>
@@ -44,11 +44,11 @@ const Footer = () => {
       </div>
       <div className="flex flex-row justify-center lg:justify-between">
         <div className="flex flex-row gap-6">
-          <a href="http://www.facebook.com/talhabytheway" target={"_blank"}><img src={facebook} alt="" /></a>
-          <a href="https://www.linkedin.com/in/talhabytheway" target={"_blank"}><img src={linkedIn} alt="" /></a>
-          <a href="https://twitter.com/talhaism_" target={"_blank"}><img src={twitter} alt="" /></a>
-          <a href="http://www.youtube.com/talhabytheway" target={"_blank"}><img src={youtube} alt="" /></a>
-          <a href="http://www.instagram.com/talhabytheway" target={"_blank"}><img src={instagram} alt="" /></a>
+          <a href="http://www.facebook.com/talhabytheway" target={"_blank"} rel="noreferrer"><img src={facebook} alt="facebook" /></a>
+          <a href="https://www.linkedin.com/in/talhabytheway" target={"_blank"} rel="noreferrer"><img src={linkedIn} alt="linkedIn" /></a>
+          <a href="https://twitter.com/talhaism_" target={"_blank"} rel="noreferrer"><img src={twitter} alt="twitter" /></a>
+          <a href="http://www.youtube.com/talhabytheway" target={"_blank"} rel="noreferrer"><img src={youtube} alt="youtube" /></a>
+          <a href="http://www.instagram.com/talhabytheway" target={"_blank"} rel="noreferrer"><img src={instagram} alt="instagram" /></a>
         </div>
         <div className="hidden lg:flex flex-row gap-10 hover:[&>*]:cursor-pointer">
         <span>
