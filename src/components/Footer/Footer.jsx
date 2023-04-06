@@ -42,15 +42,15 @@ const Footer = () => {
           <li><a href="tel:+923047916775">+92 304 7916775</a></li>
         </ul>
       </div>
-      <div className="flex flex-row justify-center lg:justify-between">
-        <div className="flex flex-row gap-6">
+      <div className="flex flex-row flex-wrap justify-center lg:justify-between">
+        <div className="flex flex-row gap-3 [&>a]:p-[8px] [&>a]:bg-[#E5E5E5] [&>a]:rounded-lg">
           <a href="http://www.facebook.com/talhabytheway" target={"_blank"} rel="noreferrer"><img src={facebook} alt="facebook" /></a>
           <a href="https://www.linkedin.com/in/talhabytheway" target={"_blank"} rel="noreferrer"><img src={linkedIn} alt="linkedIn" /></a>
           <a href="https://twitter.com/talhaism_" target={"_blank"} rel="noreferrer"><img src={twitter} alt="twitter" /></a>
           <a href="http://www.youtube.com/talhabytheway" target={"_blank"} rel="noreferrer"><img src={youtube} alt="youtube" /></a>
           <a href="http://www.instagram.com/talhabytheway" target={"_blank"} rel="noreferrer"><img src={instagram} alt="instagram" /></a>
         </div>
-        <div className="hidden lg:flex flex-row gap-10 hover:[&>*]:cursor-pointer">
+        <div className="hidden lg:flex flex-row items-center gap-10 hover:[&>*]:cursor-pointer">
         <span>
           <Link
             spy={true}

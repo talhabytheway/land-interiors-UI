@@ -7,7 +7,7 @@ const Talk = () => {
         Let talk about your Dream home
       </h2>
       <div className="mx-auto w-full">
-        <div className="flex flex-col lg:flex-row justify-between gap-5 md:gap-6 xl:gap-10">
+        <div className="flex flex-col lg:flex-row justify-between gap-10">
           <input
             type="text"
             placeholder="Name"
