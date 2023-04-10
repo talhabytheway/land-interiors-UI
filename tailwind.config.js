@@ -14,8 +14,10 @@ module.exports = {
         "pop" : ['Poppins', 'sans-serif']
       },
       screens: {
-        "xs" : '350px' 
-      }
+        "xs" : '350px',
+        "xxl" : '1600px',
+        "vl" : '1920px'
+      },
     },
   },
   plugins: [],

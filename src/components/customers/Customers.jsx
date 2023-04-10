@@ -15,37 +15,34 @@ const Customers = () => {
   });
   return (
     <>
-      <div className="mt-20 flex flex-col gap-10 xl:max-w-[1400px] xl:mx-auto customers">
+      <div className="mt-20 vl:mt-36 flex flex-col gap-10 vl:gap-12 xl:max-w-[1400px] vl:max-w-[1920px] xl:mx-auto customers">
         <h2 className="text-purpD font-medium text-[20px] sm:text-[24px] md:text-[30px] lg:text-[36px] text-center">
           Our Happy Costumers
         </h2>
-        <div className="text-[14px] md:text-[18px] px-8 mx-auto max-w-[1000px] lg:text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-          purus sit amet luctus venenatis, lectus magna fringilla urna,
-          porttitor rhoncus dolor purus non enim praesent elementum facilisis
-          leo, vel fringilla est ullamcorper eget nulla
+        <div className="text-[14px] md:text-[18px] px-8 xxl:p-0 mx-auto max-w-[755px] lg:text-center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
         </div>
       </div>
-      <div className="flex flex-col gap-10 xl:max-w-[1440px] xl:mx-auto customers">
+      <div className="flex flex-col gap-10 xl:max-w-[1440px] vl:max-w-[1920px] xl:mx-auto customers">
         <Carousel
           className="relative px-[1rem] md:px-[2rem] lg:p-0"
-          itemPadding={width >= 1280 ? [0, 100] : [0, 0]}
+          itemPadding={width >= 1280 ? [100, 70] : [40, 0]}
           itemsToShow={1}
           showArrows={true}
           initialActiveIndex={1}
           outerSpacing={width >= 1280 ? 200 : 0}
         >
           <Item className="relative h-[400px] md:h-[570px] xl:h-[600px]">
-            <div className="lg:max-w-[1200px]">
+            <div className="lg:max-w-[1200px] vl:max-w-none">
               <img
                 src={carousel1}
                 alt=""
-                className="h-[300px] md:max-h-[70%] min-h-[100%] object-cover lg:h-auto !w-[80vw] xl:w-[900px]"
+                className="h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px]"
               />
               <div className=" lg:mb-0 w-full mx-auto lg:w-[650px] xl:w-[800px]">
-                <div className="absolute left-0 bottom-14 sm:bottom-0 lg:bottom-[-5%]">
+                <div className="absolute left-0 bottom-14 sm:bottom-0 lg:bottom-[-5%] vl:bottom-[-20%] ">
                   <div className="w-full mx-auto ">
-                    <div className="relative z-100 bg-white w-[95%] lg:w-[80%] mx-auto md:drop-shadow-2xl sm:mb-5 lg:mb-20">
+                    <div className="relative z-100 bg-white w-[95%] lg:w-[80%] vl:w-[55%] mx-auto md:drop-shadow-2xl sm:mb-5 lg:mb-20">
                       <div className="absolute top-[-32%] sm:top-[-30%] lg:top-[-25%] w-full">
                         <div className="mx-auto w-full lg:w-[95%] xl:w-[90%]">
                           <img
@@ -61,7 +58,7 @@ const Customers = () => {
                         magna fringilla urna, porttitor
                       </p>
                       <span className="font-semibold sm:text-[18px] lg:text-[22px] pb-3 sm:pb-4 block">
-                        -Zain Ul Abideen
+                        -Jeo Stanlee
                       </span>
                     </div>
                   </div>
@@ -70,16 +67,16 @@ const Customers = () => {
             </div>
           </Item>
           <Item className="relative h-[400px] md:h-[570px] xl:h-[600px]">
-            <div className="lg:max-w-[1200px]">
+            <div className="lg:max-w-[1200px] vl:max-w-none">
               <img
                 src={carousel1}
                 alt=""
-                className="h-[300px] md:max-h-[70%] min-h-[100%] object-cover lg:h-auto !w-[80vw] xl:w-[900px]"
+                className="h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px]"
               />
               <div className=" lg:mb-0 w-full mx-auto lg:w-[650px] xl:w-[800px]">
-                <div className="absolute left-0 bottom-14 sm:bottom-0 lg:bottom-[-5%]">
+                <div className="absolute left-0 bottom-14 sm:bottom-0 lg:bottom-[-5%] vl:bottom-[-20%] ">
                   <div className="w-full mx-auto ">
-                    <div className="relative z-100 bg-white w-[95%] lg:w-[80%] mx-auto md:drop-shadow-2xl sm:mb-5 lg:mb-20">
+                    <div className="relative z-100 bg-white w-[95%] lg:w-[80%] vl:w-[55%] mx-auto md:drop-shadow-2xl sm:mb-5 lg:mb-20">
                       <div className="absolute top-[-32%] sm:top-[-30%] lg:top-[-25%] w-full">
                         <div className="mx-auto w-full lg:w-[95%] xl:w-[90%]">
                           <img
@@ -95,7 +92,7 @@ const Customers = () => {
                         magna fringilla urna, porttitor
                       </p>
                       <span className="font-semibold sm:text-[18px] lg:text-[22px] pb-3 sm:pb-4 block">
-                        -Zain Ul Abideen
+                        -Jeo Stanlee
                       </span>
                     </div>
                   </div>
@@ -104,16 +101,16 @@ const Customers = () => {
             </div>
           </Item>
           <Item className="relative h-[400px] md:h-[570px] xl:h-[600px]">
-            <div className="lg:max-w-[1200px]">
+            <div className="lg:max-w-[1200px] vl:max-w-none">
               <img
                 src={carousel1}
                 alt=""
-                className="h-[300px] md:max-h-[70%] min-h-[100%] object-cover lg:h-auto !w-[80vw] xl:w-[900px]"
+                className="h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px]"
               />
               <div className=" lg:mb-0 w-full mx-auto lg:w-[650px] xl:w-[800px]">
-                <div className="absolute left-0 bottom-14 sm:bottom-0 lg:bottom-[-5%]">
+                <div className="absolute left-0 bottom-14 sm:bottom-0 lg:bottom-[-5%] vl:bottom-[-20%] ">
                   <div className="w-full mx-auto ">
-                    <div className="relative z-100 bg-white w-[95%] lg:w-[80%] mx-auto md:drop-shadow-2xl sm:mb-5 lg:mb-20">
+                    <div className="relative z-100 bg-white w-[95%] lg:w-[80%] vl:w-[55%] mx-auto md:drop-shadow-2xl sm:mb-5 lg:mb-20">
                       <div className="absolute top-[-32%] sm:top-[-30%] lg:top-[-25%] w-full">
                         <div className="mx-auto w-full lg:w-[95%] xl:w-[90%]">
                           <img
@@ -129,7 +126,7 @@ const Customers = () => {
                         magna fringilla urna, porttitor
                       </p>
                       <span className="font-semibold sm:text-[18px] lg:text-[22px] pb-3 sm:pb-4 block">
-                        -Zain Ul Abideen
+                        -Jeo Stanlee
                       </span>
                     </div>
                   </div>
@@ -138,16 +135,16 @@ const Customers = () => {
             </div>
           </Item>
           <Item className="relative h-[400px] md:h-[570px] xl:h-[600px]">
-            <div className="lg:max-w-[1200px]">
+            <div className="lg:max-w-[1200px] vl:max-w-none">
               <img
                 src={carousel1}
                 alt=""
-                className="h-[300px] md:max-h-[70%] min-h-[100%] object-cover lg:h-auto !w-[80vw] xl:w-[900px]"
+                className="h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px]"
               />
               <div className=" lg:mb-0 w-full mx-auto lg:w-[650px] xl:w-[800px]">
-                <div className="absolute left-0 bottom-14 sm:bottom-0 lg:bottom-[-5%]">
+                <div className="absolute left-0 bottom-14 sm:bottom-0 lg:bottom-[-5%] vl:bottom-[-20%] ">
                   <div className="w-full mx-auto ">
-                    <div className="relative z-100 bg-white w-[95%] lg:w-[80%] mx-auto md:drop-shadow-2xl sm:mb-5 lg:mb-20">
+                    <div className="relative z-100 bg-white w-[95%] lg:w-[80%] vl:w-[55%] mx-auto md:drop-shadow-2xl sm:mb-5 lg:mb-20">
                       <div className="absolute top-[-32%] sm:top-[-30%] lg:top-[-25%] w-full">
                         <div className="mx-auto w-full lg:w-[95%] xl:w-[90%]">
                           <img
@@ -163,7 +160,7 @@ const Customers = () => {
                         magna fringilla urna, porttitor
                       </p>
                       <span className="font-semibold sm:text-[18px] lg:text-[22px] pb-3 sm:pb-4 block">
-                        -Zain Ul Abideen
+                        -Jeo Stanlee
                       </span>
                     </div>
                   </div>
@@ -185,7 +182,7 @@ const Customers = () => {
               aliquam, purus sit amet luctus venenatis, lectus magna fringilla
               urna, porttitor
             </p>
-            <span>-Zain Ul Abideen</span>
+            <span>-Jeo Stanlee</span>
           </div>
         </div>
       </Item> */}

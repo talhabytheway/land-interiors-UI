@@ -10,7 +10,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="px-16 md:px-24 lg:px-36 flex flex-col gap-6 lg:gap-8 py-8 md:py-12 lg:py-16 xl:max-w-[1440px] xl:mx-auto">
+    <div className="px-16 md:px-24 lg:px-36 flex flex-col gap-6 lg:gap-8 py-8 md:py-12 lg:py-16 vl:px-52 xl:max-w-[1440px] vl:max-w-[1920px] xl:mx-auto text-[18px]">
       <div className="w-full">
         <img
           src={logo}
@@ -19,23 +19,23 @@ const Footer = () => {
         />
       </div>
       <div className="lg:flex lg:flex-row lg:justify-between align-top">
-        <p className="hidden lg:inline-block lg:max-w-[500px] xl:max-w-[650px] w-[45%] leading-7 text-[18px]">
+        <p className="hidden lg:inline-block lg:max-w-[500px] xl:max-w-[635px] w-[45%] leading-[195.5%]  text-[#3D3D3D]">
           We introduce our selves as LAND Interior and Architectural Design
           Consultancy – one of the best interior designers in Chennai. Chennai
           Luxury Interior and Architectural Design Consultancy has challenged
           the conventional way of interior designing and given new dimensions to
           the art of interior designing.
         </p>
-        <ul className="hidden lg:inline-block [&>*]:pb-1">
-          <li className=" font-semibold lg:!pb-4 text-[#4F4F4F]">WHAT WE DO</li>
+        <ul className="hidden lg:inline-block [&>*]:pb-2 [&>*]:vl:pb-[10px] text-[#4f4f4f]">
+          <li className=" font-semibold lg:!pb-4 vl:!pb-6">WHAT WE DO</li>
           <li>Interior Design</li>
           <li>Kitchen</li>
           <li>Ceiling</li>
           <li>Bedroom</li>
           <li>Smart Home</li>
         </ul>
-        <ul className="mx-auto lg:mx-0 inline text-center lg:text-left [&>*]:pb-1">
-          <li className="hidden lg:inline-block m-0 font-semibold lg:!pb-4 text-[#4F4F4F]">
+        <ul className="mx-auto lg:mx-0 inline text-center lg:text-left [&>*]:pb-2 [&>*]:vl:pb-[10px] text-[#4f4f4f]">
+          <li className="hidden lg:inline-block m-0 font-semibold lg:!pb-4 vl:!pb-6">
             Get in touch
           </li>
           <li><a href="mailto:landinteriors@gmail.com">landinteriors@gmail.com</a></li>
