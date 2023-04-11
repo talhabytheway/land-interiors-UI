@@ -18,10 +18,11 @@ const Customers = () => {
   return (
     <>
       <div className="mt-20 vl:mt-36 flex flex-col gap-10 vl:gap-12 xl:max-w-[1400px] vl:max-w-[1920px] xl:mx-auto customers">
-        <h2 className="text-purpD font-medium text-[20px] sm:text-[24px] md:text-[30px] lg:text-[36px] text-center">
+        <h2 className="pl-16 sm:pl-20 md:pl-24 ms:pl-[148px] xl:pl-0 text-purpD font-medium text-[20px] sm:text-[24px] md:text-[30px] lg:text-[36px] text-left xl:text-center">
           Our Happy Costumers
         </h2>
-        <div className="text-[14px] md:text-[18px] px-8 xxl:p-0 mx-auto max-w-[755px] lg:text-center">
+
+        <div className="px-16 sm:px-20 md:px-24 ms:px-[148px] xl:px-0 text-[24px] xl:text-[18px] xxl:p-0 mx-auto xl:max-w-[755px] xl:text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
           purus sit amet luctus venenatis, lectus magna fringilla urna,
           porttitor rhoncus dolor purus non enim
@@ -42,7 +43,7 @@ const Customers = () => {
         >
           <Item
             className={`relative ${
-              current == 0 ? "opacity-100" : "opacity-50"
+              current === 0 ? "opacity-100" : "opacity-50"
             } h-[400px] md:h-[570px] xl:h-[600px]`}
           >
             <div className="lg:max-w-[1200px] vl:max-w-none">
@@ -50,7 +51,7 @@ const Customers = () => {
                 src={carousel2}
                 alt=""
                 className={`h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px] ${
-                  current == 0 ? "" : "xl:!h-[320px] vl:!h-[450px]"
+                  current === 0 ? "" : "xl:!h-[320px] vl:!h-[420px]"
                 }`}
               />
               <div className=" lg:mb-0 w-full mx-auto lg:w-[650px] xl:w-[800px]">
@@ -82,7 +83,7 @@ const Customers = () => {
           </Item>
           <Item
             className={`relative ${
-              current == 1 ? "opacity-100" : "opacity-50"
+              current === 1 ? "opacity-100" : "opacity-50"
             } h-[400px] md:h-[570px] xl:h-[600px]`}
           >
             <div className="lg:max-w-[1200px] vl:max-w-none">
@@ -90,7 +91,7 @@ const Customers = () => {
                 src={carousel1}
                 alt=""
                 className={`h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px] ${
-                  current == 1 ? "" : "xl:!h-[320px] vl:!h-[450px]"
+                  current === 1 ? "" : "xl:!h-[320px] vl:!h-[420px]"
                 }`}
               />
               <div className=" lg:mb-0 w-full mx-auto lg:w-[650px] xl:w-[800px]">
@@ -122,7 +123,7 @@ const Customers = () => {
           </Item>
           <Item
             className={`relative ${
-              current == 2 ? "opacity-100" : "opacity-50"
+              current === 2 ? "opacity-100" : "opacity-50"
             } h-[400px] md:h-[570px] xl:h-[600px]`}
           >
             <div className="lg:max-w-[1200px] vl:max-w-none">
@@ -130,7 +131,7 @@ const Customers = () => {
                 src={carousel2}
                 alt=""
                 className={`h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px] ${
-                  current == 2 ? "" : "xl:!h-[320px] vl:!h-[450px]"
+                  current === 2 ? "" : "xl:!h-[320px] vl:!h-[420px]"
                 }`}
               />
               <div className=" lg:mb-0 w-full mx-auto lg:w-[650px] xl:w-[800px]">
@@ -162,7 +163,7 @@ const Customers = () => {
           </Item>
           <Item
             className={`relative ${
-              current == 3 ? "opacity-100" : "opacity-50"
+              current === 3 ? "opacity-100" : "opacity-50"
             } h-[400px] md:h-[570px] xl:h-[600px]`}
           >
             <div className="lg:max-w-[1200px] vl:max-w-none">
@@ -170,7 +171,7 @@ const Customers = () => {
                 src={carousel1}
                 alt=""
                 className={`h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px] ${
-                  current == 3 ? "" : "xl:!h-[320px] vl:!h-[450px]"
+                  current === 3 ? "" : "xl:!h-[320px] vl:!h-[420px]"
                 }`}
               />
               <div className=" lg:mb-0 w-full mx-auto lg:w-[650px] xl:w-[800px]">

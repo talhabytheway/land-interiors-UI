@@ -8,30 +8,30 @@ const NavBar = () => {
   const [open, setopen] = useState(false);
 
   return (
-    <header className={`bg-dark sticky lg:relative top-0 text-[20px] z-[10000] lg:py-[1.5rem]`}>
+    <header className={`bg-dark sticky xl:relative top-0 text-[20px] z-[10000] xl:py-[1.5rem]`}>
       <div
-        className={`xl:mx-auto px-[2rem] lg:max-w-[1440px] xl:max-w-[1600px] vl:max-w-[1920px] flex py-5 lg:pb-0 vl:pb-5 justify-between items-center select-none transition-all ease-linear duration-650`}
+        className={`xl:mx-auto px-[2rem] xl:max-w-[1600px] vl:max-w-[1920px] flex py-5 xl:pb-0 vl:pb-5 justify-between items-center select-none transition-all ease-linear duration-650`}
       >
         <img
           src={logo}
           alt="Land Interior Logo"
-          className="my-auto hover:cursor-pointer h-[50px] md:h-[70px] lg:h-[100px] "
+          className="my-auto hover:cursor-pointer h-[70px] md:h-[133px] xl:h-[111px] "
         />
-        <div className="my-auto text-[#451A64] font-medium [&>*]:pl-20 lg:mr-[1.5rem] hidden lg:inline [&>*]:hover:cursor-pointer">
+        <div className="my-auto text-[#451A64] font-medium [&>*]:pl-20 xl:mr-[1.5rem] hidden xl:inline [&>*]:hover:cursor-pointer">
           <span>Join as Design Expert</span>
           <span>Partner with LAND Interiors</span>
         </div>
         <span
-          className={`cursor-pointer lg:hidden block transition-all ease-in duration-500 content-center`}
+          className={`cursor-pointer xl:hidden block transition-all ease-in duration-500 content-center`}
           onClick={() => setopen(!open)}
         >
-          <img src={open ? close : menu} alt="hamburger" className="h-10" />
+          <img src={open ? close : menu} alt="hamburger" className="h-14" />
         </span>
       </div>
       <ul
-        className={`block pb-5 absolute px-[2rem] lg:flex lg:justify-center flex-wrap transition-all ease-in duration-500 w-[100vw] left-[0] lg:w-auto lg:z-auto lg:sticky  lg:bg-none  lg:space-x-20 space-y-2.5 lg:space-y-0 my-auto p-3 lg:pt-0 vl:pt-4 lg:mb-auto hover:[&>*]:text-blue hover:[&>*]:duration-500 hover:[&>*]:cursor-pointer  ${
+        className={`block pb-5 absolute px-[3.3rem] xl:flex xl:justify-center flex-wrap transition-all ease-in duration-500 w-[100vw] left-[0] xl:w-auto xl:z-auto xl:sticky  xl:bg-none  xl:space-x-20 space-y-2.5 xl:space-y-0 my-auto p-3 xl:pt-0 vl:pt-4 xl:mb-auto hover:[&>*]:text-blue hover:[&>*]:duration-500 hover:[&>*]:cursor-pointer  ${
           open
-            ? " top-[70px] md:top-[100px] opacity-100 bg-dark lg:bg-transparent"
+            ? " top-[100px] md:top-[170px] opacity-100 bg-dark xl:bg-transparent"
             : " top-[-300px]"
         } `}
       >
@@ -91,13 +91,13 @@ const NavBar = () => {
             duration={500}
             activeClass="active"
             to="Contact"
-            className="lg:pr-[30px]"
+            className="xl:pr-[30px]"
           >
             Contact
           </Link>
         </li>
-        <li className="lg:hidden text-purp">Join as Design Expert</li>
-        <li className="lg:hidden text-purp">Partner with LAND Interiors</li>
+        <li className="xl:hidden text-purp">Join as Design Expert</li>
+        <li className="xl:hidden text-purp">Partner with LAND Interiors</li>
       </ul>
     </header>
   );

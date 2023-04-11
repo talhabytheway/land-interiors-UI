@@ -17,7 +17,7 @@ function App() {
         <NavBar/>
         <Hero/>
         <WhyLand/>
-    <div className="bg-cover" style={{ backgroundImage: `url(${rectangle})` }}>
+    <div className="sm:max-w-[1440px] xl:max-w-[1600px] vl:max-w-[1920px] mx-auto bg-cover" style={{ backgroundImage: `url(${rectangle})` }}>
         <OurProjects/>
         <InteriorProd/>
     </div>
