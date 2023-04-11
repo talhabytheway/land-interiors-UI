@@ -3,10 +3,12 @@ import Carousel from "react-elastic-carousel";
 
 import Item from "./Items";
 import carousel1 from "../../assets/carousel1.png";
+import carousel2 from "../../assets/carousel2.png";
 import customerPP from "../../assets/customerPP.png";
 
 const Customers = () => {
   const [width, setWidth] = useState(window.innerWidth);
+  const [current, setCurrent] = useState(0);
   useEffect(() => {
     function handleResize() {
       setWidth(window.innerWidth);
@@ -20,7 +22,9 @@ const Customers = () => {
           Our Happy Costumers
         </h2>
         <div className="text-[14px] md:text-[18px] px-8 xxl:p-0 mx-auto max-w-[755px] lg:text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit amet luctus venenatis, lectus magna fringilla urna,
+          porttitor rhoncus dolor purus non enim
         </div>
       </div>
       <div className="flex flex-col gap-10 xl:max-w-[1440px] vl:max-w-[1920px] xl:mx-auto customers">
@@ -31,13 +35,23 @@ const Customers = () => {
           showArrows={true}
           initialActiveIndex={1}
           outerSpacing={width >= 1280 ? 200 : 0}
+          onChange={(pageIndex) => {
+            setCurrent(pageIndex.index);
+            console.log(current);
+          }}
         >
-          <Item className="relative h-[400px] md:h-[570px] xl:h-[600px]">
+          <Item
+            className={`relative ${
+              current == 0 ? "opacity-100" : "opacity-50"
+            } h-[400px] md:h-[570px] xl:h-[600px]`}
+          >
             <div className="lg:max-w-[1200px] vl:max-w-none">
               <img
-                src={carousel1}
+                src={carousel2}
                 alt=""
-                className="h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px]"
+                className={`h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px] ${
+                  current == 0 ? "" : "xl:!h-[320px] vl:!h-[450px]"
+                }`}
               />
               <div className=" lg:mb-0 w-full mx-auto lg:w-[650px] xl:w-[800px]">
                 <div className="absolute left-0 bottom-14 sm:bottom-0 lg:bottom-[-5%] vl:bottom-[-20%] ">
@@ -66,12 +80,18 @@ const Customers = () => {
               </div>
             </div>
           </Item>
-          <Item className="relative h-[400px] md:h-[570px] xl:h-[600px]">
+          <Item
+            className={`relative ${
+              current == 1 ? "opacity-100" : "opacity-50"
+            } h-[400px] md:h-[570px] xl:h-[600px]`}
+          >
             <div className="lg:max-w-[1200px] vl:max-w-none">
               <img
                 src={carousel1}
                 alt=""
-                className="h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px]"
+                className={`h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px] ${
+                  current == 1 ? "" : "xl:!h-[320px] vl:!h-[450px]"
+                }`}
               />
               <div className=" lg:mb-0 w-full mx-auto lg:w-[650px] xl:w-[800px]">
                 <div className="absolute left-0 bottom-14 sm:bottom-0 lg:bottom-[-5%] vl:bottom-[-20%] ">
@@ -100,12 +120,18 @@ const Customers = () => {
               </div>
             </div>
           </Item>
-          <Item className="relative h-[400px] md:h-[570px] xl:h-[600px]">
+          <Item
+            className={`relative ${
+              current == 2 ? "opacity-100" : "opacity-50"
+            } h-[400px] md:h-[570px] xl:h-[600px]`}
+          >
             <div className="lg:max-w-[1200px] vl:max-w-none">
               <img
-                src={carousel1}
+                src={carousel2}
                 alt=""
-                className="h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px]"
+                className={`h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px] ${
+                  current == 2 ? "" : "xl:!h-[320px] vl:!h-[450px]"
+                }`}
               />
               <div className=" lg:mb-0 w-full mx-auto lg:w-[650px] xl:w-[800px]">
                 <div className="absolute left-0 bottom-14 sm:bottom-0 lg:bottom-[-5%] vl:bottom-[-20%] ">
@@ -134,12 +160,18 @@ const Customers = () => {
               </div>
             </div>
           </Item>
-          <Item className="relative h-[400px] md:h-[570px] xl:h-[600px]">
+          <Item
+            className={`relative ${
+              current == 3 ? "opacity-100" : "opacity-50"
+            } h-[400px] md:h-[570px] xl:h-[600px]`}
+          >
             <div className="lg:max-w-[1200px] vl:max-w-none">
               <img
                 src={carousel1}
                 alt=""
-                className="h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px]"
+                className={`h-[300px] md:max-h-[70%] vl:max-h-none min-h-[100%] object-cover lg:h-auto vl:!h-[600px] !w-[80vw] xl:w-[900px] vl:w-[1100px] ${
+                  current == 3 ? "" : "xl:!h-[320px] vl:!h-[450px]"
+                }`}
               />
               <div className=" lg:mb-0 w-full mx-auto lg:w-[650px] xl:w-[800px]">
                 <div className="absolute left-0 bottom-14 sm:bottom-0 lg:bottom-[-5%] vl:bottom-[-20%] ">

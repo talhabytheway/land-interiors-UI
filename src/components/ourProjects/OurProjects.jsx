@@ -8,7 +8,6 @@ import exteriorProject from "../../assets/exteriorProject.png";
 import greyBeauty from "../../assets/greyBeauty.png";
 import plantainInterior from "../../assets/plantainInterior.png";
 import roleOfFurniture from "../../assets/roleOfFurniture.png";
-import rectangle from "../../assets/rectangleProj.svg";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 
@@ -31,10 +30,9 @@ const OurProjects = () => {
   return (
     <div
       id="Projects"
-      className="lg:max-w-[1440px] xl:max-w-[1600px] vl:max-w-[1920px] mx-auto relative min-h-[400px] sm:min-h-[500px] py-20 bg-cover"
-      style={{ backgroundImage: `url(${rectangle})` }}
+      className="sm:max-w-[1440px] xl:max-w-[1600px] vl:max-w-[1920px] mx-auto relative min-h-[400px] sm:min-h-[500px] py-20"
     >
-      <div className="grid sm:grid-cols-2 md:w-full lg:max-w-[760px] mx-10 vl:ml-24 vl:mr-0 [&>div>img]:p-2 [&>div>img]:mx-auto [&>div>img]:object-cover">
+      <div className="grid sm:grid-cols-2 md:w-full mx-auto max-w-[760px] ms:mx-10 vl:ml-24 vl:mr-0 [&>div>img]:p-2 [&>div>img]:mx-auto [&>div>img]:object-cover">
         <div>
           <img
             src={projects1}

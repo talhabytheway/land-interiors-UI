@@ -57,7 +57,7 @@ const WhyLand = () => {
               </div>
               <div>
                 <h4>Move-in</h4>
-                <span>
+                <span className="lg:!max-w-[439px]">
                   Move in with ease, with our hassle-free civil work and
                   installation services.
                 </span>
