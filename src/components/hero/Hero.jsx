@@ -7,7 +7,7 @@ const Hero = () => {
       <img
         src={heroImg}
         alt="heroImg"
-        className="w-full md:max-w-[1280px] xl:max-w-[850px] sm:max-w-none xl:w-[900px] vl:w-[1090px] xl:h-[500px] vl:h-[613px] object-cover"
+        className="w-full md:max-w-[1280px] xl:max-w-[850px] xxl:max-w-none sm:max-w-none xl:w-[900px] vl:w-[1090px] xl:h-[500px] vl:h-[613px] object-cover"
       />
       <div className="mx-auto w-full xl:w-auto absolute top-[40%] sm:top-[45%] right-0 vl:right-0 md:top-[50%] xl:top-[50px] vl:top-[20%]">
         <div className="bg-white bg-opacity-80 max-w-[375] sm:max-w-auto mx-2 sm:mx-4 md:mx-12 xl:mx-0 py-[1rem] md:py-[2rem] md:px-[6rem] xl:py-[4rem] xl:pr-[6rem] xl:pl-[8rem] xxl:px-[174px] xxl:[py-69px] text-center">

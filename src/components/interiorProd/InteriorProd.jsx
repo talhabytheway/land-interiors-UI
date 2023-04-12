@@ -39,7 +39,7 @@ const InteriorProd = () => {
           className="hidden xl:inline xl:row-start-1 xl:row-end-3 xl:col-start-8 xl:col-span-3"
         />
       </div>
-      <div className="text-[18px] md:text-[24px] text-left xl:text-[18px] pb-3 ms:pb-6 xl:pb-3 px-10 md:px-[76px] ms:px-[148px] mx-auto xl:max-w-[600px] xl:text-center">
+      <div className="text-[18px] md:text-[24px] text-left xl:text-[18px] pb-3 ms:pb-6 xl:pb-3 px-10 md:px-[76px] ms:px-[148px] xl:px-0 mx-auto xl:max-w-[600px] xl:text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
         purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
         rhoncus dolor purus non enim
