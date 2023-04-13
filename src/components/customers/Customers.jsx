@@ -8,7 +8,7 @@ import customerPP from "../../assets/customerPP.png";
 
 const Customers = () => {
   const [width, setWidth] = useState(window.innerWidth);
-  const [current, setCurrent] = useState(0);
+  const [current, setCurrent] = useState(1);
   useEffect(() => {
     function handleResize() {
       setWidth(window.innerWidth);
