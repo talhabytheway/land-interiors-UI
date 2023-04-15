@@ -7,9 +7,6 @@ import Customers from './components/customers/Customers'
 import Talk from './components/talk/Talk'
 import Footer from './components/footer/Footer'
 
-
-import rectangle from "../src/assets/rectangleProj.svg";
-
 function App() {
   return (
     <div className="font-pop">
@@ -17,7 +14,7 @@ function App() {
         <NavBar/>
         <Hero/>
         <WhyLand/>
-    <div className="sm:max-w-[1440px] xl:max-w-[1600px] vl:max-w-[1920px] mx-auto bg-cover" style={{ backgroundImage: `url(${rectangle})` }}>
+    <div className="sm:max-w-[1440px] xl:max-w-[1600px] vl:max-w-[1920px] mx-auto bg-cover bgIntProd">
         <OurProjects/>
         <InteriorProd/>
     </div>

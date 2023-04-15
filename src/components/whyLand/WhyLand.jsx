@@ -76,27 +76,27 @@ const WhyLand = () => {
       >
         What we do?
       </h2>
-      <div className="p-10 mx-auto mt-[24px]">
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mx-auto vl:max-w-[1360px] vl:mx-auto [&>*]:justify-self-center [&>div>span]:text-purp [&>div>span]:block [&>div>span]:p-4 [&>div>span]:text-center [&>div>span]:text-[24px] font-semibold">
+      <div className=" mx-auto mt-[24px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 vl:grid-cols-4 gap-10 ms:gap-x-[96px] ms:gap-y-[43px] xl:gap-[75px]  mx-auto ms:max-w-[782px] vl:max-w-[1360px] vl:mx-auto [&>*]:justify-self-center [&>div>span]:text-purp [&>div>span]:block [&>div>span]:pt-[33px] [&>div>span]:text-center [&>div>span]:text-[24px] font-semibold">
           <div>
-            <img src={modularKitchen} alt="modularKitchen" />
+            <img src={modularKitchen} className="ms:w-[343px] ms:h-[407px] w-[286px] h-[340px] xl:w-[286px] xl:h-[340px]" alt="modularKitchen" />
             <span>Modular Kitchen</span>
           </div>
           <div>
-            <img src={bedroom} alt="bedroom" />
+            <img src={bedroom} className="ms:w-[343px] ms:h-[407px] w-[286px] h-[340px] xl:w-[286px] xl:h-[340px]" alt="bedroom" />
             <span>Bedroom</span>
           </div>
           <div>
-            <img src={livingRoom} alt="livingRoom" />
+            <img src={livingRoom} className="ms:w-[343px] ms:h-[407px] w-[286px] h-[340px] xl:w-[286px] xl:h-[340px]" alt="livingRoom" />
             <span>Living Room</span>
           </div>
           <div>
-            <img src={homeOffice} alt="homeOffice" />
+            <img src={homeOffice} className="ms:w-[343px] ms:h-[407px] w-[286px] h-[340px] xl:w-[286px] xl:h-[340px]" alt="homeOffice" />
             <span>Home Office</span>
           </div>
         </div>
       </div>
-      <div className="hidden xl:block xl:text-[18px] px-8 xl:px-0 pb-2 ms:pb-4 vl:pb-8  mx-auto max-w-[1000px] vl:max-w-[1041px] text-center">
+      <div className="hidden xl:block xl:text-[18px] px-8 xl:px-0 xl:pt-[12px] pb-2 ms:pb-4 vl:pb-8 mx-auto max-w-[1000px] vl:max-w-[1041px] text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
         purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
         rhoncus dolor purus non enim praesent elementum facilisis leo, vel

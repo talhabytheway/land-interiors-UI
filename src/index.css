@@ -2,19 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  overflow-x: hidden !important;
+}
 .rec-pagination {
   display: none !important;
 }
+
 .rec-arrow {
-  border-radius: 0% !important;
-  position: absolute !important;
   top: 40% !important;
   z-index: 10 !important;
+  border-radius: 0% !important;
+  position: absolute !important;
   background: #fff !important;
 }
 
 .rec-arrow:hover {
-  background: #4B2A63 !important;
+  background: #4b2a63 !important;
   color: #fff !important;
 }
 
@@ -26,33 +30,57 @@
   right: 0 !important;
 }
 
-
 @media (min-width: 1280px) {
-.customers .rec-arrow {
-  display: none !important
-}
-.bgWhyLand { 
-  background-image: url('./assets/rectangleWhyLand.svg')
-}
-}
-
-@media (min-width: 1080px) {
-  .customers .rec-slider-container {
-    margin: 0 !important;
+  .customers .rec-arrow {
+    display: none !important;
+  }
+  .bgWhyLand {
+    background-image: url("./assets/rectangleWhyLand.svg");
+    background-repeat: no-repeat;
+  }
+  .bgIntProd {
+    background-image: url("./assets/rectangleProj.svg");
+    background-repeat: no-repeat;
   }
 }
 
+@media (min-width: 768px) {
+  .customers .rec-arrow-left {
+    left: 2.5% !important;
+  }
+  
+  .customers .rec-arrow-right {
+    right: 2.5% !important;
+  }
+}
+@media (min-width: 1080px) {
+  .rec-slider-container {
+    margin: 0 !important;
+  }
+  .customers .rec-arrow-left {
+    left: 8% !important;
+  }
+  
+  .customers .rec-arrow-right {
+    right: 8% !important;
+  }
+}
 
+@media (min-width: 1920px) {
+  .rec-item-wrapper {
+    max-width: 1400px !important;
+  }
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

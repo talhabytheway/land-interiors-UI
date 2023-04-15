@@ -7,7 +7,5 @@ export default styled.div`
   align-items: center;
   text-align: center;
   width: 70wv;
-//   height: 50vh
-//   position: relative;
   margin: 10px
 `;

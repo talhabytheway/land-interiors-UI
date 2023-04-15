@@ -10,13 +10,13 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col gap-6 ms:gap-8 py-8 md:py-12 ms:py-16 xl:max-w-[1440px] vl:max-w-[1920px] xl:mx-auto text-[18px] bg-[#F8F8F8]">
+    <div className="flex flex-col gap-6 ms:gap-8 vl:gap-[50px] py-8 md:py-12 ms:py-16 xl:max-w-[1440px] vl:max-w-[1920px] xl:mx-auto text-[24px] xl:text-[18px] bg-[#F8F8F8]">
       <div className="xl:flex xl:flex-row xl:!justify-between align-top px-16 md:px-24 ms:px-36 vl:px-52">
-        <div className="ms:max-w-[500px] xl:max-w-[635px] w-[45%] mx-auto xl:!mx-0 ">
+        <div className="ms:max-w-[500px] xl:max-w-[635px] vl:max-w-[419px] w-[45%] mx-auto xl:!mx-0 vl:!mr-[100px]">
         <img
           src={logo}
           alt="logo"
-          className="h-16 md:h-20 xl:h-24 mx-auto xl:ml-0 mb-6"
+          className="h-16 md:h-20 ms:h-[111px] xl:h-24 mx-auto xl:ml-0 mb-6"
           />
         <p className="hidden xl:inline-block leading-[195.5%] text-[#3D3D3D]">
           We introduce our selves as LAND Interior and Architectural Design
@@ -26,16 +26,16 @@ const Footer = () => {
           the art of interior designing.
         </p>
           </div>
-        <ul className="hidden xl:inline-block [&>*]:pb-2 [&>*]:vl:pb-[10px] xl:pt-[5%] text-[#4f4f4f]">
-          <li className=" font-semibold xl:!pb-4 vl:!pb-6">WHAT WE DO</li>
+        <ul className="hidden xl:inline-block [&>*]:pb-2 [&>*]:vl:pb-[10px] xl:pt-[5%] vl:pt-[60px] text-[#4f4f4f]">
+          <li className="text-[16px] font-semibold xl:!pb-4 vl:!pb-[33px]">WHAT WE DO</li>
           <li>Interior Design</li>
           <li>Kitchen</li>
           <li>Ceiling</li>
           <li>Bedroom</li>
           <li>Smart Home</li>
         </ul>
-        <ul className="mx-auto xl:mx-0 inline text-center xl:text-left [&>*]:pb-2 xl:pt-[5%] [&>*]:vl:pb-[10px] text-[#4f4f4f]">
-          <li className="hidden xl:inline-block m-0 font-semibold xl:!pb-4 vl:!pb-6">
+        <ul className="mx-auto xl:mx-0 inline text-center xl:text-left [&>*]:pb-2 xl:pt-[5%] vl:pt-[60px] [&>*]:vl:pb-[10px] vl:pr-[200px] text-[#4f4f4f]">
+          <li className="text-[16px] hidden xl:inline-block m-0 font-semibold xl:!pb-4 vl:!pb-[33px]">
             Get in touch
           </li>
           <li><a href="mailto:landinteriors@gmail.com">landinteriors@gmail.com</a></li>
@@ -43,14 +43,14 @@ const Footer = () => {
         </ul>
       </div>
       <div className="flex flex-row flex-wrap justify-center xl:justify-between px-16 md:px-24 xl:px-36 vl:pl-52 vl:pr-9">
-        <div className="flex flex-row gap-3 [&>a]:p-[8px] [&>a]:bg-[#E5E5E5] [&>a]:rounded-md">
+        <div className="flex flex-row gap-3 [&>a]:vl:p-[9px] [&>a]:p-[15px] [&>a]:bg-[#E5E5E5] [&>a>img]:vl:h-[29px] [&>a>img]:h-[48px] [&>a]:rounded-md">
           <a href="http://www.facebook.com/talhabytheway" target={"_blank"} rel="noreferrer"><img src={facebook} alt="facebook" /></a>
           <a href="https://www.linkedin.com/in/talhabytheway" target={"_blank"} rel="noreferrer"><img src={linkedIn} alt="linkedIn" /></a>
           <a href="https://twitter.com/talhaism_" target={"_blank"} rel="noreferrer"><img src={twitter} alt="twitter" /></a>
           <a href="http://www.youtube.com/talhabytheway" target={"_blank"} rel="noreferrer"><img src={youtube} alt="youtube" /></a>
           <a href="http://www.instagram.com/talhabytheway" target={"_blank"} rel="noreferrer"><img src={instagram} alt="instagram" /></a>
         </div>
-        <div className="hidden xl:flex flex-row items-center gap-10 hover:[&>*]:cursor-pointer pr-[-40px]">
+        <div className="hidden xl:flex flex-row items-center gap-10 hover:[&>*]:cursor-pointer pr-[-40px] vl:mt-[-6rem]">
         <span>
           <Link
             spy={true}

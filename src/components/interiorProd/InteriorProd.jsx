@@ -12,7 +12,7 @@ const InteriorProd = () => {
       id="Studio"
       className="flex flex-col gap-10 xl:max-w-[1440px] vl:max-w-[1920px] xl:mx-auto"
     >
-      <h2 className="text-purpD font-medium text-[20px] sm:text-[24px] md:text-[30px] lg:text-[36px] text-center py-6">
+      <h2 className="px-16 sm:px-20 md:px-24 ms:px-[148px] text-purpD font-medium text-[20px] sm:text-[24px] md:text-[30px] lg:text-[36px] xl:text-center pt-6 xl:pb-[9px] mb-[-16px] xl:mb-0">
         Our Interior Design Products
       </h2>
       <div className=" grid xl:grid-cols-10 max-md:grid-cols-5 grid-rows-2 gap-2 xl:gap-4 max-h-[70vh] px-16 sm:px-20 md:px-24 ms:px-[148px] xl:px-0 w-full xl:w-[80.333%] mx-auto [&>img]:w-full [&>img]:h-full [&>img]:object-cover">
@@ -39,7 +39,7 @@ const InteriorProd = () => {
           className="hidden xl:inline xl:row-start-1 xl:row-end-3 xl:col-start-8 xl:col-span-3"
         />
       </div>
-      <div className="text-[18px] md:text-[24px] text-left xl:text-[18px] pb-3 ms:pb-6 xl:pb-3 px-10 md:px-[76px] ms:px-[148px] xl:px-0 mx-auto xl:max-w-[600px] xl:text-center">
+      <div className="text-[18px] md:text-[24px] text-left xl:text-[18px] pb-3 ms:pb-10 xl:pb-3 px-10 md:px-[76px] ms:px-[148px] xl:px-0 mx-auto xl:max-w-[600px] xl:text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
         purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
         rhoncus dolor purus non enim

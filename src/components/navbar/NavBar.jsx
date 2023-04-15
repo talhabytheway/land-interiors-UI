@@ -29,9 +29,9 @@ const NavBar = () => {
         </span>
       </div>
       <ul
-        className={`block pb-5 absolute px-[3.3rem] xl:flex xl:justify-center flex-wrap transition-all ease-in duration-500 w-[98vw] left-[0] xl:w-auto xl:z-auto xl:sticky xl:bg-none xl:space-x-20 space-y-2.5 xl:space-y-0 my-auto p-3 xl:pt-0 vl:pt-4 xl:mb-auto hover:[&>*]:text-blue hover:[&>*]:duration-500 hover:[&>*]:cursor-pointer  ${
+        className={`block pb-5 absolute px-[3.3rem] xl:flex xl:justify-center flex-wrap transition-all ease-in duration-500 w-[100vw] left-[0] xl:w-auto xl:z-auto xl:sticky xl:bg-none xl:space-x-20 space-y-2.5 xl:space-y-0 my-auto p-3 xl:pt-0 vl:pt-4 xl:mb-auto hover:[&>*]:text-blue hover:[&>*]:duration-500 hover:[&>*]:cursor-pointer  ${
           open
-            ? " top-[100px] md:top-[170px] opacity-100 bg-dark xl:bg-transparent"
+            ? " top-[100px] md:top-[170px] ms:top-[200px] opacity-100 bg-dark xl:bg-transparent"
             : " top-[-300px]"
         } `}
       >
