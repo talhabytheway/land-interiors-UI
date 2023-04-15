@@ -8,7 +8,7 @@ import customerPP from "../../assets/customerPP.png";
 
 const Customers = () => {
   const [width, setWidth] = useState(window.innerWidth);
-  const [spacing, setSpacing] = useState();
+  const [spacing, setSpacing] = useState(0);
   const [current, setCurrent] = useState(1);
   useEffect(() => {
     function handleResize() {
@@ -16,8 +16,10 @@ const Customers = () => {
     }
     if(width >= 1920) {
       setSpacing(280) 
-    }else if (width >= 1280) {
+    } else if (width >= 1280) {
       setSpacing(250)
+    } else {
+      setSpacing(0)
     }
     window.addEventListener("resize", handleResize);
   }, [width]);
