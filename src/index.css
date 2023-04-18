@@ -37,6 +37,7 @@ html {
   .bgWhyLand {
     background-image: url("./assets/rectangleWhyLand.svg");
     background-repeat: no-repeat;
+    background-position-y: center;
   }
   .bgIntProd {
     background-image: url("./assets/rectangleProj.svg");
@@ -71,6 +72,13 @@ html {
     max-width: 1400px !important;
   }
 }
+
+@media (min-width: 768px) {
+#Blog img {
+  max-width: none;
+}
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

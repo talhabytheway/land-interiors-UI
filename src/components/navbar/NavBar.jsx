@@ -8,9 +8,9 @@ const NavBar = () => {
   const [open, setopen] = useState(false);
 
   return (
-    <header className={`bg-dark sticky xl:relative top-0 text-[20px] z-[10000] xl:py-[1.5rem]`}>
+    <header className={`bg-dark sticky xl:relative top-0 text-[20px] md:text-[24px] xl:text-[20px] z-[10000] xl:py-[1.5rem]`}>
       <div
-        className={`xl:mx-auto px-[1.5rem] lg:pl-[24px] lg:pr-[64px] xl:px-[2rem] xl:max-w-[1600px] vl:max-w-[1920px] flex py-5 lg:py-[44px] xl:pb-0 vl:pb-5 justify-between items-center select-none transition-all ease-linear duration-650`}
+        className={`xl:mx-auto px-[1.5rem] lg:pl-[24px] lg:pr-[64px] xl:px-[2rem] xl:max-w-[1600px] vl:max-w-[1920px] flex py-5 ms:py-[44px] xl:py-[8px] xl:pb-0 vl:pb-5 justify-between items-center select-none transition-all ease-linear duration-650`}
       >
         <img
           src={logo}
@@ -29,10 +29,10 @@ const NavBar = () => {
         </span>
       </div>
       <ul
-        className={`block pb-5 absolute px-[3.3rem] xl:flex xl:justify-center flex-wrap transition-all ease-in duration-500 w-[100vw] left-[0] xl:w-auto xl:z-auto xl:sticky xl:bg-none xl:space-x-20 space-y-2.5 xl:space-y-0 my-auto p-3 xl:pt-0 vl:pt-4 xl:mb-auto hover:[&>*]:text-blue hover:[&>*]:duration-500 hover:[&>*]:cursor-pointer  ${
+        className={`block pb-5 absolute px-[2.5rem] md:px-[3.3rem] xl:px-[2.5rem] xl:flex xl:justify-center flex-wrap transition-all ease-in duration-500 w-[100vw] left-[0] xl:w-auto xl:z-auto xl:sticky xl:bg-none xl:space-x-20 space-y-2.5 xl:space-y-0 my-auto p-3 xl:pt-0 vl:pt-4 xl:mb-auto hover:[&>*]:text-blue hover:[&>*]:duration-500 hover:[&>*]:cursor-pointer  ${
           open
             ? " top-[100px] md:top-[170px] ms:top-[200px] opacity-100 bg-dark xl:bg-transparent"
-            : " top-[-300px]"
+            : " top-[-350px]"
         } `}
       >
         <li>

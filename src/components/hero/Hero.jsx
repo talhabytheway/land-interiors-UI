@@ -3,7 +3,7 @@ import heroImg from "../../assets/heroImg.png";
 
 const Hero = () => {
   return (
-    <div className="xl:!max-w-[1600px] xxl:!max-w-[1920px] vl:w-[1920px] mx-auto relative min-h-[450px] xs:min-h-[400px] sm:min-h-[500px] xl:mt-[3rem]">
+    <div className="xl:!max-w-[1600px] xxl:!max-w-[1920px] vl:w-[1920px] mx-auto relative min-h-[450px] xs:min-h-[400px] sm:min-h-[500px] xl:mt-[3rem] vl:mt-[68px]">
       <img
         src={heroImg}
         alt="heroImg"

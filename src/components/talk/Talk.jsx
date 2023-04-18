@@ -2,12 +2,12 @@ import React from "react";
 
 const Talk = () => {
   return (
-    <div id="Contact" className="my-16 xl:mt-0 px-16 sm:px-20 md:px-24 ms:px-[140px] vl:px-52 flex flex-col gap-10 vl:gap-[42px] xl:max-w-[1440px] vl:max-w-[1920px] xl:mx-auto">
+    <div id="Contact" className="my-16 xl:mt-0 px-6 sm:px-10 md:px-16 ms:px-[140px] vl:px-52 flex flex-col gap-10 vl:gap-[42px] vl:max-w-[1920px] xl:mx-auto">
       <h2 className="text-[20px] sm:text-[24px] md:text-[30px] ms:text-[36px]">
         Let talk about your Dream home
       </h2>
       <div className="mx-auto w-full">
-        <div className="flex flex-col xl:flex-row justify-between gap-14 xl:gap-10">
+        <div className="flex flex-col xl:flex-row justify-between gap-10 md:gap-14 xl:gap-10">
           <input
             type="text"
             placeholder="Name"

@@ -14,7 +14,7 @@ function App() {
         <NavBar/>
         <Hero/>
         <WhyLand/>
-    <div className="sm:max-w-[1440px] xl:max-w-[1600px] vl:max-w-[1920px] mx-auto bg-cover bgIntProd">
+    <div className="sm:max-w-[1440px] xl:max-w-none vl:max-w-[1920px] mx-auto bg-cover bgIntProd">
         <OurProjects/>
         <InteriorProd/>
     </div>
