@@ -73,8 +73,8 @@ const OurProjects = () => {
           />
         </div>
       </div>
-      <div className="mx-auto w-full md:w-auto xl:absolute right-0 xl:right-[5%] xl:top-[150px] vl:top-[106px] vl:right-[106px]">
-        <div className="bg-white bg-opacity-80 xl:max-w-[1000px] vl:max-w-none sm:max-w-auto py-[1rem] xl:px-[69px] md:py-[60px] text-center">
+      <div className="mx-auto w-full md:w-auto xl:absolute right-0 xl:right-[1%] xxl:right-[3%] xl:top-[150px] vl:top-[106px] vl:right-[106px]">
+        <div className="bg-white bg-opacity-80 xl:max-w-[800px] xxl:max-w-[1000px] vl:max-w-none sm:max-w-auto py-[1rem] xl:px-[69px] md:py-[60px] text-center">
           <h2 className="hidden xl:block text-purpD font-medium text-[36px] text-left xl:text-center pb-3 vl:p-0 vl:pb-[45px]">
             Our Projects
           </h2>
